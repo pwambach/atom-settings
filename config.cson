@@ -1,0 +1,35 @@
+"*":
+  "exception-reporting":
+    userId: "60ffa8ee-c4f3-40e3-29b9-9558474a06e2"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-dark-ui"
+      "one-dark-syntax"
+    ]
+    excludeVcsIgnoredPaths: false
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    showIndentGuide: true
+  autosave:
+    enabled: true
+  "git-diff": {}
+  "symbols-tree-view":
+    autoHide: true
+  "tree-view-open-files": {}
+  tabs:
+    enableVcsColoring: true
+    usePreviewTabs: true
+  "linter-jshint": {}
+  "atom-beautify":
+    _analyticsUserId: "8aa27af5-95ca-4eeb-8d42-cc805c286d60"
+    html_wrap_attributes: "force"
+    html_wrap_attributes_indent_size: 4
+  "linter-jsonlint": {}
+  "tree-view-git-status":
+    autoToggle: false
+  "tree-view": {}
+  "linter-eslint":
+    globalNodePath: "/usr/local"
