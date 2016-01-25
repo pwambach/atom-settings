@@ -23,10 +23,10 @@
     'body': 'debugger;'
   'Unit test - Describe...':
     'prefix': 'describe'
-    'body': 'describe(\'$1\', function(){\n\n});'
+    'body': 'describe(\'$1\', () => {\n\n});'
   'Unit test - It should...':
     'prefix': 'it'
-    'body': 'it(\'should $1\', function(){\n\n});'
+    'body': 'it(\'$1\', () => {\n\n});'
 
 '.text.html.basic':
   'Pre snippet':

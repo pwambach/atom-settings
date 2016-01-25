@@ -31,6 +31,8 @@
   'cmd-i': 'editor:auto-indent'
   'cmd-backspace': 'editor:delete-line'
   'cmd-l': 'go-to-line:toggle'
+  'alt-up': 'custom:move-ten-up'
+  'alt-down': 'custom:move-ten-down'
 
 '.platform-darwin':
   'cmd-.': 'window:focus-next-pane'

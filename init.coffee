@@ -9,3 +9,13 @@
 # atom.workspace.observeTextEditors (editor) ->
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
+
+Fn =
+  moveCursor: (c) ->
+    e = atom.workspace.getActiveTextEditor()
+    p = e.getCursorScreenPosition()
+    p.row += c
+    e.setCursorScreenPosition(p)
+
+atom.commands.add 'atom-text-editor', 'custom:move-ten-up', Fn.moveCursor.bind(@, -10);
+atom.commands.add 'atom-text-editor', 'custom:move-ten-down', Fn.moveCursor.bind(@, 10);
